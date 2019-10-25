@@ -10258,7 +10258,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "969",
-    "status": "",
+    "status": "ac",
     "title": "Number of Recent Calls",
     "titleSlug": "number-of-recent-calls"
   },
@@ -10742,7 +10742,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1019",
-    "status": "",
+    "status": "ac",
     "title": "Squares of a Sorted Array",
     "titleSlug": "squares-of-a-sorted-array"
   },
