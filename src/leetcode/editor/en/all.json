@@ -28,7 +28,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "3",
-    "status": "",
+    "status": "notac",
     "title": "Longest Substring Without Repeating Characters",
     "titleSlug": "longest-substring-without-repeating-characters"
   },
@@ -72,7 +72,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "7",
-    "status": "",
+    "status": "ac",
     "title": "Reverse Integer",
     "titleSlug": "reverse-integer"
   },
