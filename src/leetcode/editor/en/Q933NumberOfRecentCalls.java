@@ -35,7 +35,7 @@
 package leetcode.editor.en;
 
 /**
- * Note: There are some faster methods
+ * note: There are some faster methods
  */
 public class Q933NumberOfRecentCalls {
 

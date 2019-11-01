@@ -1,0 +1,24 @@
+    class Solution {
+        private char[] reverseK(String s, int k) {
+            char[] cs = s.toCharArray();
+            int len = Math.min(s.length(), k);
+            for (int i = 0; i < len / 2; i++) {
+                char t = cs[i];
+                cs[i] = cs[len - 1 - i];
+                cs[len - 1 - i] = t;
+            }
+            return cs;
+        }
+
+        public String reverseStr(String s, int k) {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < s.length(); i += 2 * k) {
+                String sbs = s.substring(i, Math.min(s.length(), 2 * k + i));
+                sb.append(reverseK(sbs, k));
+            }
+            return sb.toString();
+        }
+    }
+
+//runtime:1 ms
+//memory:37.4 MB

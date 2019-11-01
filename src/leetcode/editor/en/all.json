@@ -9719,7 +9719,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "920",
-    "status": "",
+    "status": "ac",
     "title": "Uncommon Words from Two Sentences",
     "titleSlug": "uncommon-words-from-two-sentences"
   },
@@ -13594,5 +13594,71 @@
     "status": "lock",
     "title": "Web Crawler",
     "titleSlug": "web-crawler"
+  },
+  {
+    "formTitle": "[1237]Find Positive Integer Solution for a Given Equation",
+    "frontendQuestionId": "1237",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1358",
+    "status": "",
+    "title": "Find Positive Integer Solution for a Given Equation",
+    "titleSlug": "find-positive-integer-solution-for-a-given-equation"
+  },
+  {
+    "formTitle": "[1238]Circular Permutation in Binary Representation",
+    "frontendQuestionId": "1238",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1359",
+    "status": "",
+    "title": "Circular Permutation in Binary Representation",
+    "titleSlug": "circular-permutation-in-binary-representation"
+  },
+  {
+    "formTitle": "[1239]Maximum Length of a Concatenated String with Unique Characters",
+    "frontendQuestionId": "1239",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1360",
+    "status": "",
+    "title": "Maximum Length of a Concatenated String with Unique Characters",
+    "titleSlug": "maximum-length-of-a-concatenated-string-with-unique-characters"
+  },
+  {
+    "formTitle": "[1240]Tiling a Rectangle with the Fewest Squares",
+    "frontendQuestionId": "1240",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1361",
+    "status": "",
+    "title": "Tiling a Rectangle with the Fewest Squares",
+    "titleSlug": "tiling-a-rectangle-with-the-fewest-squares"
+  },
+  {
+    "formTitle": "[1241]Number of Comments per Post",
+    "frontendQuestionId": "1241",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1377",
+    "status": "lock",
+    "title": "Number of Comments per Post",
+    "titleSlug": "number-of-comments-per-post"
+  },
+  {
+    "formTitle": "[1242]Web Crawler Multithreaded",
+    "frontendQuestionId": "1242",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1368",
+    "status": "lock",
+    "title": "Web Crawler Multithreaded",
+    "titleSlug": "web-crawler-multithreaded"
   }
 ]
