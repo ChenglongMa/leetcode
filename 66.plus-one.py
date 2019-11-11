@@ -60,7 +60,7 @@ class Solution:
             if not d:
                 break
 
-        return digits if not d else [1]+digits
+        return digits if not d else [d]+digits
 
 # @lc code=end
 
