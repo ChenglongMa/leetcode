@@ -45,12 +45,18 @@
 class Solution:
 
     def mySqrt(self, x: int) -> int:
+        """
+        Newton's method
+        """
         res = x
         while res * res > x:
             res = (res + x // res) // 2
         return res
 
     def mySqrt2(self, x: int) -> int:
+        """
+        Binary search
+        """
         if x <= 1:
             return x
         left = 0
