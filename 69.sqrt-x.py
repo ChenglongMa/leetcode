@@ -49,7 +49,7 @@ class Solution:
         Newton's method
         """
         res = x
-        while res * res > x:
+        while res ** 2 > x:
             res = (res + x // res) // 2
         return res
 
