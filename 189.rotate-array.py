@@ -56,14 +56,25 @@ class Solution:
         """
         length = len(nums)
         k = k % length
-        tmp = nums.copy()
+        count = 0
         for i in range(length):
-            nums[i] = tmp[i - k]
+            prev = nums[i]
+            nxt = (i + k) % length
+            while nxt != i:
+                tmp = nums[nxt]
+                nums[nxt] = prev
+                prev = tmp
+                nxt = (nxt + k) % length
+                count += 1
+            nums[nxt] = prev
+            count += 1
+            if count == length:
+                return
 
 
 # @lc code=end
 if __name__ == "__main__":
     s = Solution()
-    nums = [1, 2, 3]
+    nums = list(range(4))
     s.rotate(nums,2)
     print(nums)
