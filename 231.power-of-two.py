@@ -43,8 +43,9 @@
 
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
-        while n and not n % 2:
-            n //= 2
-        return n == 1
+        for i in range(32):
+            if n == 1 << i:
+                return True
+        return False
 
 # @lc code=end
